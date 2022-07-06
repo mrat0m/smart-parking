@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  font-family: "Quicksand";
+  color: #333;
+  /* margin: 1rem; */
+  /* For TextField correct label alignment */
+  /* margin-inline-start: 0px; */
+
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto; 
+  margin-left: 250px;
+  margin-top: 2rem;
+  background-color: white; /* bg white if there is bg image */
+  border-bottom: 1px solid #f2f2f2;
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+  box-shadow: #354a53 0px 20px 30px -10px;
+  border-radius: 1rem;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #333;
+}
+
+/* .content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+} */
+
+/* .contentb {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px; 
+} */
+
+.photo {
+  height: 270px;
+  width: 575px;
+  border-radius: 1rem;
+}
+
+.logo {
+  height: 50px;
+  width: 60px;
+  border-radius: 1rem;
+}
+/* .a {
+  text-decoration: none;
+} */
